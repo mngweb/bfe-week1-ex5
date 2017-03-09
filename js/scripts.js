@@ -36,7 +36,7 @@ phone. Sformatuj je według własnego uznania.
 
                  },
                  error: function(jqXHR, status, errorThrown) {
-                    console.log("Wystąpił błąd - status: " + status + ", rodzaj błędu:" + errorThrown);
+                     list.append($("<li></li>").text("Wystąpił błąd - status: " + status + ", rodzaj błędu:" + errorThrown));
                 },                    
             });
                    
