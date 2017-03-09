@@ -13,7 +13,7 @@ phone. Sformatuj je według własnego uznania.
     $(document).ready(function() {
 
         var list = $("<ul></ul>"); 
-        $("body").append(list);
+        $(".container").append(list);
 
 
         $("button").on('click', function(e){
