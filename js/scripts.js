@@ -21,6 +21,7 @@ phone. Sformatuj je według własnego uznania.
             $.ajax({
                 url: "https://jsonplaceholder.typicode.com/users",
                 method: "GET",
+                dataType: "json",
                 success: function(data, status, jqXHR) {
 
                     $.each(data, function(index, user) {
